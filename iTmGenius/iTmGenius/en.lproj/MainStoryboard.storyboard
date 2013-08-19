@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="2" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uIt-wB-3gE">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="512" id="9eF-wl-tTo"/>
+                                    <constraint firstAttribute="height" constant="385" id="KZm-ja-eBm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="ButtonGreenOff.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="ButtonGreenOn.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="play:" destination="2" eventType="touchUpInside" id="hYw-bG-N7U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVq-JO-Krw">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="385" id="ZMz-2j-jPQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="ButtonYellowOff.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="ButtonYellowOn.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="play:" destination="2" eventType="touchUpInside" id="rIW-so-4jy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="right" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kKV-Jz-nGo">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="ButtonBlueOff.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="ButtonBlueOn.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="play:" destination="2" eventType="touchUpInside" id="gVR-Yc-ACw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleAspectFit" contentHorizontalAlignment="right" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uoF-qv-Beq">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="512" id="hT4-24-GtS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="ButtonRedOff.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="ButtonRedOn.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="play:" destination="2" eventType="touchUpInside" id="cgH-vd-Ohv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ien-9U-Wlr">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="364" id="HWj-u7-vCV"/>
+                                    <constraint firstAttribute="height" constant="334" id="pgb-Ai-5oq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="CharacterGray01.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="start:" destination="2" eventType="touchUpInside" id="rGC-hL-Q88"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2681767155" green="0.27896855380000002" blue="0.31134406889999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="kKV-Jz-nGo" firstAttribute="leading" secondItem="uoF-qv-Beq" secondAttribute="leading" type="default" id="0IR-IS-a52"/>
+                            <constraint firstItem="ien-9U-Wlr" firstAttribute="centerY" secondItem="5" secondAttribute="centerY" type="default" id="2Qz-wh-73m"/>
+                            <constraint firstItem="uIt-wB-3gE" firstAttribute="top" secondItem="5" secondAttribute="top" type="default" id="3d7-VO-ewY"/>
+                            <constraint firstItem="cVq-JO-Krw" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="57N-2G-LBP"/>
+                            <constraint firstItem="uIt-wB-3gE" firstAttribute="trailing" secondItem="cVq-JO-Krw" secondAttribute="trailing" type="default" id="8Yc-1P-2pj"/>
+                            <constraint firstItem="uIt-wB-3gE" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="default" id="RlS-Ys-LRo"/>
+                            <constraint firstItem="ien-9U-Wlr" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="331" id="TX8-Eg-sLY"/>
+                            <constraint firstItem="uoF-qv-Beq" firstAttribute="top" secondItem="5" secondAttribute="top" type="default" id="Vjt-MG-gGK"/>
+                            <constraint firstItem="cVq-JO-Krw" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="default" id="ZUI-cH-io3"/>
+                            <constraint firstItem="uoF-qv-Beq" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" type="default" id="fnE-g4-9rm"/>
+                            <constraint firstItem="kKV-Jz-nGo" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="hpk-S6-QyH"/>
+                            <constraint firstItem="kKV-Jz-nGo" firstAttribute="top" secondItem="cVq-JO-Krw" secondAttribute="top" type="default" id="qG3-Hq-Vaq"/>
+                            <constraint firstItem="uIt-wB-3gE" firstAttribute="bottom" secondItem="uoF-qv-Beq" secondAttribute="bottom" type="default" id="qHD-Bc-EwV"/>
+                            <constraint firstItem="kKV-Jz-nGo" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" type="default" id="ukP-XS-bq1"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="btnCenter" destination="ien-9U-Wlr" id="kMR-eD-D0m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ButtonBlueOff.png" width="128" height="96"/>
+        <image name="ButtonBlueOn.png" width="128" height="96"/>
+        <image name="ButtonGreenOff.png" width="128" height="96"/>
+        <image name="ButtonGreenOn.png" width="128" height="96"/>
+        <image name="ButtonRedOff.png" width="128" height="96"/>
+        <image name="ButtonRedOn.png" width="128" height="96"/>
+        <image name="ButtonYellowOff.png" width="128" height="96"/>
+        <image name="ButtonYellowOn.png" width="128" height="96"/>
+        <image name="CharacterGray01.png" width="91" height="84"/>
+    </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="play:"/>
+                <relationship kind="action" name="start:"/>
+                <relationship kind="outlet" name="btnCenter" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
