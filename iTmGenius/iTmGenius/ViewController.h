@@ -8,18 +8,33 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
+#import "myButton.h"
 
 @interface ViewController : UIViewController {
-     AVAudioPlayer* audioPlayer;
-    
-    BOOL started;
-    IBOutlet UIButton * btnCenter;
+    AVAudioPlayer* audioPlayer;
+
+
+    BOOL isStarted; //when the game is started
+    BOOL isPlayerTurn; //when the player need to play
+
+    IBOutlet myButton * btnCenter;
+
+
+    NSMutableArray * listComputer;
+    NSMutableArray * listPlayer;
+
 }
+
+  extern float const blinkButtonTime = 0.3f;
 
 - (IBAction)start:(id)sender;
 - (IBAction)play:(id)sender;
 
+- (void) computerTurn;
+- (void) playListComputer;
+- (void) blinkButtonAtIndex:(NSNumber *) myIndex;
 
+- (BOOL) isListsEquals;
 
 
 

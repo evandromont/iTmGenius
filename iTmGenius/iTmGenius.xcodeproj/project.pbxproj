@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65809C82520EF4E8E5258BDE /* myButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 658099AC3F4D874E197A4571 /* myButton.m */; };
 		B1911A8B17B02AB000B49B0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1911A8A17B02AB000B49B0F /* UIKit.framework */; };
 		B1911A8D17B02AB000B49B0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1911A8C17B02AB000B49B0F /* Foundation.framework */; };
 		B1911A8F17B02AB000B49B0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1911A8E17B02AB000B49B0F /* CoreGraphics.framework */; };
@@ -85,6 +86,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		658099AC3F4D874E197A4571 /* myButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myButton.m; sourceTree = "<group>"; };
+		65809B1B5B9B70646F0DA849 /* myButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myButton.h; sourceTree = "<group>"; };
 		B1911A8717B02AB000B49B0F /* iTmGenius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTmGenius.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1911A8A17B02AB000B49B0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B1911A8C17B02AB000B49B0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -238,6 +241,8 @@
 				B1911AA517B02AB000B49B0F /* ViewController.h */,
 				B1911AA617B02AB000B49B0F /* ViewController.m */,
 				B1911A9117B02AB000B49B0F /* Supporting Files */,
+				658099AC3F4D874E197A4571 /* myButton.m */,
+				65809B1B5B9B70646F0DA849 /* myButton.h */,
 			);
 			path = iTmGenius;
 			sourceTree = "<group>";
@@ -462,6 +467,7 @@
 				B1911A9717B02AB000B49B0F /* main.m in Sources */,
 				B1911A9B17B02AB000B49B0F /* AppDelegate.m in Sources */,
 				B1911AA717B02AB000B49B0F /* ViewController.m in Sources */,
+				65809C82520EF4E8E5258BDE /* myButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
