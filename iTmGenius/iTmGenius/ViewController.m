@@ -19,6 +19,23 @@
 
 @implementation ViewController
 
+//_____________________________ play video _____________________________
+
+- (IBAction)playVideo 
+{
+    NSURL *url=[NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"Opening" ofType:@"mp4"]];
+    MPMoviePlayerViewController * playercontroller = [[MPMoviePlayerViewController alloc]initWithContentURL:url];
+    
+    [self presentMoviePlayerViewControllerAnimated:playercontroller];
+    playercontroller.moviePlayer.movieSourceType = MPMovieSourceTypeFile;
+    [playercontroller.moviePlayer play];
+    playercontroller=nil;
+}
+
+
+
+//______________________________________________________________________________________
+
 - (IBAction)start:(id)sender
 {
 

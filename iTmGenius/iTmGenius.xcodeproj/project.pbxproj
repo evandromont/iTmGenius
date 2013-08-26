@@ -14,7 +14,6 @@
 		B1911A9517B02AB000B49B0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1911A9317B02AB000B49B0F /* InfoPlist.strings */; };
 		B1911A9717B02AB000B49B0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1911A9617B02AB000B49B0F /* main.m */; };
 		B1911A9B17B02AB000B49B0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1911A9A17B02AB000B49B0F /* AppDelegate.m */; };
-		B1911AA417B02AB000B49B0F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1911AA217B02AB000B49B0F /* MainStoryboard.storyboard */; };
 		B1911AA717B02AB000B49B0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1911AA617B02AB000B49B0F /* ViewController.m */; };
 		B1911AC417B02D3F00B49B0F /* BaseCenter~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B1911AAE17B02D3F00B49B0F /* BaseCenter~ipad.png */; };
 		B1911AC517B02D3F00B49B0F /* ButtonBlueOff~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B1911AAF17B02D3F00B49B0F /* ButtonBlueOff~ipad.png */; };
@@ -35,7 +34,6 @@
 		B1911AD517B02D3F00B49B0F /* LightGreen~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B1911ABF17B02D3F00B49B0F /* LightGreen~ipad.png */; };
 		B1911AD617B02D3F00B49B0F /* LightRed~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B1911AC017B02D3F00B49B0F /* LightRed~ipad.png */; };
 		B1911AD717B02D3F00B49B0F /* LightYellow~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B1911AC117B02D3F00B49B0F /* LightYellow~ipad.png */; };
-		B1911AD817B02D3F00B49B0F /* Openning~ipad.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B1911AC317B02D3F00B49B0F /* Openning~ipad.mp4 */; };
 		B1911ADC17B02E1800B49B0F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1911ADB17B02E1800B49B0F /* MediaPlayer.framework */; };
 		B1911AE217B0388500B49B0F /* buttonBlue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B1911ADE17B0388500B49B0F /* buttonBlue.mp3 */; };
 		B1911AE317B0388500B49B0F /* buttonGreen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B1911ADF17B0388500B49B0F /* buttonGreen.mp3 */; };
@@ -83,6 +81,22 @@
 		B1B2A88017BEC6D600D264C4 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B2A87817BEC6D600D264C4 /* Default-Portrait~ipad.png */; };
 		B1B2A88117BEC6D600D264C4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B2A87917BEC6D600D264C4 /* Default.png */; };
 		B1B2A88217BEC6D600D264C4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B2A87A17BEC6D600D264C4 /* Default@2x.png */; };
+		B1CA7C3417C79B0000A40D43 /* BgGame.png in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7C2C17C79B0000A40D43 /* BgGame.png */; };
+		B1CA7C3517C79B0000A40D43 /* BgGame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7C2D17C79B0000A40D43 /* BgGame@2x.png */; };
+		B1CA7C3617C79B0000A40D43 /* BgGame~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7C2E17C79B0000A40D43 /* BgGame~ipad.png */; };
+		B1CA7C3717C79B0000A40D43 /* ButtonPlayOff~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7C2F17C79B0000A40D43 /* ButtonPlayOff~ipad.png */; };
+		B1CA7C3817C79B0000A40D43 /* ButtonPlayOn~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7C3017C79B0000A40D43 /* ButtonPlayOn~ipad.png */; };
+		B1CA7C3917C79B0000A40D43 /* MainMenuBg-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7C3117C79B0000A40D43 /* MainMenuBg-568h@2x.png */; };
+		B1CA7C3A17C79B0000A40D43 /* MainMenuBg.png in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7C3217C79B0000A40D43 /* MainMenuBg.png */; };
+		B1CA7C3B17C79B0000A40D43 /* MainMenuBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7C3317C79B0000A40D43 /* MainMenuBg@2x.png */; };
+		B1CA7C3D17C79B0800A40D43 /* BgGame-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7C3C17C79B0800A40D43 /* BgGame-568h@2x.png */; };
+		B1CA7C3F17C79B0E00A40D43 /* MainMenuBg~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7C3E17C79B0E00A40D43 /* MainMenuBg~ipad.png */; };
+		B1CA7C4917C79F0B00A40D43 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7C4617C79F0B00A40D43 /* correct.mp3 */; };
+		B1CA7C4A17C79F0B00A40D43 /* incorrect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7C4717C79F0B00A40D43 /* incorrect.mp3 */; };
+		B1CA7C4B17C79F0B00A40D43 /* points.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7C4817C79F0B00A40D43 /* points.mp3 */; };
+		B1CA7C4E17C7FD5900A40D43 /* ButtonVoltarOff~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7C4C17C7FD5900A40D43 /* ButtonVoltarOff~ipad.png */; };
+		B1CA7C4F17C7FD5900A40D43 /* ButtonVoltarOn~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B1CA7C4D17C7FD5900A40D43 /* ButtonVoltarOn~ipad.png */; };
+		B1DC467917CBCC1100ED750C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1DC467717CBCC1100ED750C /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,7 +115,6 @@
 		B1911A9C17B02AB000B49B0F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B1911A9E17B02AB000B49B0F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B1911AA017B02AB000B49B0F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		B1911AA317B02AB000B49B0F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B1911AA517B02AB000B49B0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B1911AA617B02AB000B49B0F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B1911AAE17B02D3F00B49B0F /* BaseCenter~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BaseCenter~ipad.png"; sourceTree = "<group>"; };
@@ -123,7 +136,6 @@
 		B1911ABF17B02D3F00B49B0F /* LightGreen~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LightGreen~ipad.png"; sourceTree = "<group>"; };
 		B1911AC017B02D3F00B49B0F /* LightRed~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LightRed~ipad.png"; sourceTree = "<group>"; };
 		B1911AC117B02D3F00B49B0F /* LightYellow~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LightYellow~ipad.png"; sourceTree = "<group>"; };
-		B1911AC317B02D3F00B49B0F /* Openning~ipad.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Openning~ipad.mp4"; sourceTree = "<group>"; };
 		B1911ADB17B02E1800B49B0F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		B1911ADE17B0388500B49B0F /* buttonBlue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buttonBlue.mp3; sourceTree = "<group>"; };
 		B1911ADF17B0388500B49B0F /* buttonGreen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buttonGreen.mp3; sourceTree = "<group>"; };
@@ -171,6 +183,26 @@
 		B1B2A87817BEC6D600D264C4 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 		B1B2A87917BEC6D600D264C4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B1B2A87A17BEC6D600D264C4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B1CA7C2C17C79B0000A40D43 /* BgGame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BgGame.png; sourceTree = "<group>"; };
+		B1CA7C2D17C79B0000A40D43 /* BgGame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BgGame@2x.png"; sourceTree = "<group>"; };
+		B1CA7C2E17C79B0000A40D43 /* BgGame~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BgGame~ipad.png"; sourceTree = "<group>"; };
+		B1CA7C2F17C79B0000A40D43 /* ButtonPlayOff~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ButtonPlayOff~ipad.png"; sourceTree = "<group>"; };
+		B1CA7C3017C79B0000A40D43 /* ButtonPlayOn~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ButtonPlayOn~ipad.png"; sourceTree = "<group>"; };
+		B1CA7C3117C79B0000A40D43 /* MainMenuBg-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MainMenuBg-568h@2x.png"; sourceTree = "<group>"; };
+		B1CA7C3217C79B0000A40D43 /* MainMenuBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainMenuBg.png; sourceTree = "<group>"; };
+		B1CA7C3317C79B0000A40D43 /* MainMenuBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MainMenuBg@2x.png"; sourceTree = "<group>"; };
+		B1CA7C3C17C79B0800A40D43 /* BgGame-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BgGame-568h@2x.png"; sourceTree = "<group>"; };
+		B1CA7C3E17C79B0E00A40D43 /* MainMenuBg~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MainMenuBg~ipad.png"; sourceTree = "<group>"; };
+		B1CA7C4617C79F0B00A40D43 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
+		B1CA7C4717C79F0B00A40D43 /* incorrect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = incorrect.mp3; sourceTree = "<group>"; };
+		B1CA7C4817C79F0B00A40D43 /* points.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = points.mp3; sourceTree = "<group>"; };
+		B1CA7C4C17C7FD5900A40D43 /* ButtonVoltarOff~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ButtonVoltarOff~ipad.png"; sourceTree = "<group>"; };
+		B1CA7C4D17C7FD5900A40D43 /* ButtonVoltarOn~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ButtonVoltarOn~ipad.png"; sourceTree = "<group>"; };
+		B1DC467317CBC2AB00ED750C /* Opening-568h@2x.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Opening-568h@2x.mp4"; path = "videos/Opening-568h@2x.mp4"; sourceTree = SOURCE_ROOT; };
+		B1DC467417CBC2AB00ED750C /* Opening.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Opening.mp4; path = videos/Opening.mp4; sourceTree = SOURCE_ROOT; };
+		B1DC467517CBC2AB00ED750C /* Opening@2x.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Opening@2x.mp4"; path = "videos/Opening@2x.mp4"; sourceTree = SOURCE_ROOT; };
+		B1DC467617CBC2AB00ED750C /* Opening~ipad.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Opening~ipad.mp4"; path = "videos/Opening~ipad.mp4"; sourceTree = SOURCE_ROOT; };
+		B1DC467817CBCC1100ED750C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = iTmGenius/en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,8 +268,8 @@
 				B1911AC217B02D3F00B49B0F /* videos */,
 				B1911A9917B02AB000B49B0F /* AppDelegate.h */,
 				B1911A9A17B02AB000B49B0F /* AppDelegate.m */,
+				B1DC467717CBCC1100ED750C /* MainStoryboard.storyboard */,
 				B198417417BAC72B001653FC /* MainiPhoneStoryboard.storyboard */,
-				B1911AA217B02AB000B49B0F /* MainStoryboard.storyboard */,
 				B1911AA517B02AB000B49B0F /* ViewController.h */,
 				B1911AA617B02AB000B49B0F /* ViewController.m */,
 				B1911A9117B02AB000B49B0F /* Supporting Files */,
@@ -264,6 +296,18 @@
 		B1911AAD17B02D3F00B49B0F /* images */ = {
 			isa = PBXGroup;
 			children = (
+				B1CA7C4C17C7FD5900A40D43 /* ButtonVoltarOff~ipad.png */,
+				B1CA7C4D17C7FD5900A40D43 /* ButtonVoltarOn~ipad.png */,
+				B1CA7C3E17C79B0E00A40D43 /* MainMenuBg~ipad.png */,
+				B1CA7C3C17C79B0800A40D43 /* BgGame-568h@2x.png */,
+				B1CA7C2C17C79B0000A40D43 /* BgGame.png */,
+				B1CA7C2D17C79B0000A40D43 /* BgGame@2x.png */,
+				B1CA7C2E17C79B0000A40D43 /* BgGame~ipad.png */,
+				B1CA7C2F17C79B0000A40D43 /* ButtonPlayOff~ipad.png */,
+				B1CA7C3017C79B0000A40D43 /* ButtonPlayOn~ipad.png */,
+				B1CA7C3117C79B0000A40D43 /* MainMenuBg-568h@2x.png */,
+				B1CA7C3217C79B0000A40D43 /* MainMenuBg.png */,
+				B1CA7C3317C79B0000A40D43 /* MainMenuBg@2x.png */,
 				B198417817BACB3C001653FC /* ButtonBlueOff.png */,
 				B198417917BACB3C001653FC /* ButtonBlueOff@2x.png */,
 				B198417A17BACB3C001653FC /* ButtonBlueOn.png */,
@@ -321,7 +365,10 @@
 		B1911AC217B02D3F00B49B0F /* videos */ = {
 			isa = PBXGroup;
 			children = (
-				B1911AC317B02D3F00B49B0F /* Openning~ipad.mp4 */,
+				B1DC467317CBC2AB00ED750C /* Opening-568h@2x.mp4 */,
+				B1DC467417CBC2AB00ED750C /* Opening.mp4 */,
+				B1DC467517CBC2AB00ED750C /* Opening@2x.mp4 */,
+				B1DC467617CBC2AB00ED750C /* Opening~ipad.mp4 */,
 			);
 			path = videos;
 			sourceTree = SOURCE_ROOT;
@@ -329,6 +376,9 @@
 		B1911ADD17B0388500B49B0F /* sounds */ = {
 			isa = PBXGroup;
 			children = (
+				B1CA7C4617C79F0B00A40D43 /* correct.mp3 */,
+				B1CA7C4717C79F0B00A40D43 /* incorrect.mp3 */,
+				B1CA7C4817C79F0B00A40D43 /* points.mp3 */,
 				B1911ADE17B0388500B49B0F /* buttonBlue.mp3 */,
 				B1911ADF17B0388500B49B0F /* buttonGreen.mp3 */,
 				B1911AE017B0388500B49B0F /* buttonRed.mp3 */,
@@ -389,7 +439,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1911A9517B02AB000B49B0F /* InfoPlist.strings in Resources */,
-				B1911AA417B02AB000B49B0F /* MainStoryboard.storyboard in Resources */,
 				B1911AC417B02D3F00B49B0F /* BaseCenter~ipad.png in Resources */,
 				B1911AC517B02D3F00B49B0F /* ButtonBlueOff~ipad.png in Resources */,
 				B1911AC617B02D3F00B49B0F /* ButtonBlueOn~ipad.png in Resources */,
@@ -409,7 +458,6 @@
 				B1911AD517B02D3F00B49B0F /* LightGreen~ipad.png in Resources */,
 				B1911AD617B02D3F00B49B0F /* LightRed~ipad.png in Resources */,
 				B1911AD717B02D3F00B49B0F /* LightYellow~ipad.png in Resources */,
-				B1911AD817B02D3F00B49B0F /* Openning~ipad.mp4 in Resources */,
 				B1911AE217B0388500B49B0F /* buttonBlue.mp3 in Resources */,
 				B1911AE317B0388500B49B0F /* buttonGreen.mp3 in Resources */,
 				B1911AE417B0388500B49B0F /* buttonRed.mp3 in Resources */,
@@ -454,6 +502,22 @@
 				B1B2A88017BEC6D600D264C4 /* Default-Portrait~ipad.png in Resources */,
 				B1B2A88117BEC6D600D264C4 /* Default.png in Resources */,
 				B1B2A88217BEC6D600D264C4 /* Default@2x.png in Resources */,
+				B1CA7C3417C79B0000A40D43 /* BgGame.png in Resources */,
+				B1CA7C3517C79B0000A40D43 /* BgGame@2x.png in Resources */,
+				B1CA7C3617C79B0000A40D43 /* BgGame~ipad.png in Resources */,
+				B1CA7C3717C79B0000A40D43 /* ButtonPlayOff~ipad.png in Resources */,
+				B1CA7C3817C79B0000A40D43 /* ButtonPlayOn~ipad.png in Resources */,
+				B1CA7C3917C79B0000A40D43 /* MainMenuBg-568h@2x.png in Resources */,
+				B1CA7C3A17C79B0000A40D43 /* MainMenuBg.png in Resources */,
+				B1CA7C3B17C79B0000A40D43 /* MainMenuBg@2x.png in Resources */,
+				B1CA7C3D17C79B0800A40D43 /* BgGame-568h@2x.png in Resources */,
+				B1CA7C3F17C79B0E00A40D43 /* MainMenuBg~ipad.png in Resources */,
+				B1CA7C4917C79F0B00A40D43 /* correct.mp3 in Resources */,
+				B1CA7C4A17C79F0B00A40D43 /* incorrect.mp3 in Resources */,
+				B1CA7C4B17C79F0B00A40D43 /* points.mp3 in Resources */,
+				B1CA7C4E17C7FD5900A40D43 /* ButtonVoltarOff~ipad.png in Resources */,
+				B1CA7C4F17C7FD5900A40D43 /* ButtonVoltarOn~ipad.png in Resources */,
+				B1DC467917CBCC1100ED750C /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,12 +546,13 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		B1911AA217B02AB000B49B0F /* MainStoryboard.storyboard */ = {
+		B1DC467717CBCC1100ED750C /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B1911AA317B02AB000B49B0F /* en */,
+				B1DC467817CBCC1100ED750C /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
