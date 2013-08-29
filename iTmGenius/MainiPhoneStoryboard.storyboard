@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="3A1-7Z-icF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="wHK-7Y-0wC">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -12,103 +12,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="BgGame.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ebq-aW-XEo"/>
-                            <button opaque="NO" tag="4" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RxM-eJ-IAW">
+                            <button opaque="NO" tag="2" contentMode="scaleAspectFit" contentHorizontalAlignment="right" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WWS-NA-w6r">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="192" id="VVd-n5-KrN"/>
+                                    <constraint firstAttribute="height" constant="192" id="S67-wZ-x3q"/>
+                                    <constraint firstAttribute="width" constant="256" id="xLT-Iw-VZe"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" backgroundImage="ButtonYellowOff.png">
+                                <state key="normal" backgroundImage="ButtonGreenOff~ipad.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" backgroundImage="ButtonYellowOn.png">
+                                <state key="highlighted" backgroundImage="ButtonGreenOn~ipad.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="play:" destination="wHK-7Y-0wC" eventType="touchUpInside" id="igp-TF-7bm"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1l3-lV-gvu">
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" backgroundImage="ButtonBlueOff.png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted" backgroundImage="ButtonBlueOn.png">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="play:" destination="wHK-7Y-0wC" eventType="touchUpInside" id="xRi-ac-FUp"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVp-hL-ixg">
+                            <button opaque="NO" tag="1" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ln-8v-gYP">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="192" id="duD-I6-Xpo"/>
-                                    <constraint firstAttribute="width" constant="256" id="fbO-lL-yr8"/>
+                                    <constraint firstAttribute="width" constant="256" id="erH-kd-6br"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" backgroundImage="ButtonGreenOff.png">
+                                <state key="normal" backgroundImage="ButtonRedOff~ipad.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" backgroundImage="ButtonGreenOn.png">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="play:" destination="wHK-7Y-0wC" eventType="touchUpInside" id="Wfn-Cd-cxC"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJm-ZU-ayv">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="256" id="4HA-xc-GZf"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" backgroundImage="ButtonRedOff.png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted" backgroundImage="ButtonRedOn.png">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="play:" destination="wHK-7Y-0wC" eventType="touchUpInside" id="jRb-40-8dv"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oO1-Sw-aUH">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="182" id="Gbl-eV-PRH"/>
-                                    <constraint firstAttribute="height" constant="168" id="zG2-gd-aE0"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" backgroundImage="CharacterGray01.png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
+                                <state key="highlighted" backgroundImage="ButtonRedOn~ipad.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="1l3-lV-gvu" firstAttribute="trailing" secondItem="eJm-ZU-ayv" secondAttribute="trailing" type="default" id="0m3-8N-bz1"/>
-                            <constraint firstItem="eJm-ZU-ayv" firstAttribute="leading" secondItem="9kD-Tl-4Bw" secondAttribute="leading" constant="284" id="10h-KU-mAn"/>
-                            <constraint firstItem="Ebq-aW-XEo" firstAttribute="leading" secondItem="9kD-Tl-4Bw" secondAttribute="leading" type="default" id="3vP-mU-C55"/>
-                            <constraint firstItem="aVp-hL-ixg" firstAttribute="top" secondItem="9kD-Tl-4Bw" secondAttribute="top" constant="-32" id="4Ha-lp-QEJ"/>
-                            <constraint firstItem="Ebq-aW-XEo" firstAttribute="top" secondItem="9kD-Tl-4Bw" secondAttribute="top" type="default" id="AWo-9q-6fX"/>
-                            <constraint firstItem="1l3-lV-gvu" firstAttribute="top" secondItem="RxM-eJ-IAW" secondAttribute="top" type="default" id="Aca-Mz-xxv"/>
-                            <constraint firstItem="aVp-hL-ixg" firstAttribute="bottom" secondItem="eJm-ZU-ayv" secondAttribute="bottom" type="default" id="M3o-QI-5ll"/>
-                            <constraint firstItem="aVp-hL-ixg" firstAttribute="top" secondItem="eJm-ZU-ayv" secondAttribute="top" type="default" id="N7I-lF-6YG"/>
-                            <constraint firstItem="RxM-eJ-IAW" firstAttribute="trailing" secondItem="aVp-hL-ixg" secondAttribute="trailing" type="default" id="OuQ-c8-WiN"/>
-                            <constraint firstItem="oO1-Sw-aUH" firstAttribute="centerX" secondItem="Ebq-aW-XEo" secondAttribute="centerX" type="default" id="SDK-dr-5rX"/>
-                            <constraint firstItem="oO1-Sw-aUH" firstAttribute="centerY" secondItem="Ebq-aW-XEo" secondAttribute="centerY" type="default" id="SS5-MV-Cnt"/>
-                            <constraint firstItem="RxM-eJ-IAW" firstAttribute="leading" secondItem="aVp-hL-ixg" secondAttribute="leading" type="default" id="T3d-fD-rbw"/>
-                            <constraint firstItem="aVp-hL-ixg" firstAttribute="leading" secondItem="9kD-Tl-4Bw" secondAttribute="leading" constant="28" id="Z6t-OK-HXb"/>
-                            <constraint firstItem="1l3-lV-gvu" firstAttribute="bottom" secondItem="RxM-eJ-IAW" secondAttribute="bottom" type="default" id="ast-hk-0kg"/>
-                            <constraint firstItem="1l3-lV-gvu" firstAttribute="leading" secondItem="eJm-ZU-ayv" secondAttribute="leading" type="default" id="c7p-dm-RAZ"/>
-                            <constraint firstItem="Ebq-aW-XEo" firstAttribute="trailing" secondItem="9kD-Tl-4Bw" secondAttribute="trailing" type="default" id="gqg-nQ-HNc"/>
-                            <constraint firstItem="RxM-eJ-IAW" firstAttribute="top" secondItem="9kD-Tl-4Bw" secondAttribute="top" constant="160" id="vb1-tn-Lfh"/>
+                            <constraint firstItem="8ln-8v-gYP" firstAttribute="top" secondItem="WWS-NA-w6r" secondAttribute="top" type="default" id="13g-lV-yna"/>
+                            <constraint firstItem="WWS-NA-w6r" firstAttribute="leading" secondItem="9kD-Tl-4Bw" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="3Kg-WA-Lep"/>
+                            <constraint firstItem="WWS-NA-w6r" firstAttribute="top" secondItem="9kD-Tl-4Bw" secondAttribute="top" constant="-31" id="5xj-wZ-1eg"/>
+                            <constraint firstItem="8ln-8v-gYP" firstAttribute="leading" secondItem="9kD-Tl-4Bw" secondAttribute="leading" constant="282" id="PQX-TT-9se"/>
+                            <constraint firstItem="WWS-NA-w6r" firstAttribute="left" relation="lessThanOrEqual" secondItem="9kD-Tl-4Bw" secondAttribute="left" constant="20" symbolic="YES" type="user" id="ewg-Jj-xrz"/>
+                            <constraint firstItem="8ln-8v-gYP" firstAttribute="bottom" secondItem="WWS-NA-w6r" secondAttribute="bottom" type="default" id="nrY-xM-glF"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
@@ -122,163 +61,12 @@
             </objects>
             <point key="canvasLocation" x="197" y="98"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="HQ9-1L-mBh">
-            <objects>
-                <viewController id="7ED-8n-8UP" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="NSf-M7-ow7">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Colocar o video aqui.... Sem botoes de play stop sem nada quando terminar vai pra proxima tela. É impossivel!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggq-MB-OaR">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="837" id="ONX-TP-gZW"/>
-                                    <constraint firstAttribute="height" constant="21" id="Sz5-Ae-9c3"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="ggq-MB-OaR" firstAttribute="top" secondItem="NSf-M7-ow7" secondAttribute="top" constant="152" id="1AY-u7-voa"/>
-                            <constraint firstItem="ggq-MB-OaR" firstAttribute="leading" secondItem="NSf-M7-ow7" secondAttribute="leading" constant="48" id="uNw-su-udt"/>
-                        </constraints>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    </view>
-                    <nil key="simulatedStatusBarMetrics"/>
-                    <nil key="simulatedTopBarMetrics"/>
-                    <nil key="simulatedBottomBarMetrics"/>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RZS-St-0XV" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1086" y="98"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Zjg-Ze-lC1">
-            <objects>
-                <viewController id="3A1-7Z-icF" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Omq-8S-ady">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="MainMenuBg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fvq-60-gIg"/>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Bg-Vj-y5y">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="D8O-2m-yOz"/>
-                                    <constraint firstAttribute="width" constant="90" id="n0i-qz-M6s"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" backgroundImage="ButtonPlayOff~ipad.png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted" backgroundImage="ButtonPlayOn~ipad.png">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="wHK-7Y-0wC" kind="modal" modalTransitionStyle="flipHorizontal" id="533-p0-ehz"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kv9-uK-Djh">
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="5oS-vN-Oin" kind="modal" modalTransitionStyle="flipHorizontal" id="XNB-1B-LTP"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="kv9-uK-Djh" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="7Zr-Vu-Tvd"/>
-                            <constraint firstAttribute="bottom" secondItem="kv9-uK-Djh" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="Juo-5h-RyZ"/>
-                            <constraint firstItem="Fvq-60-gIg" firstAttribute="leading" secondItem="Omq-8S-ady" secondAttribute="leading" type="default" id="Ukg-HB-Ysu"/>
-                            <constraint firstItem="Fvq-60-gIg" firstAttribute="top" secondItem="Omq-8S-ady" secondAttribute="top" type="default" id="fm8-CZ-qeK"/>
-                            <constraint firstItem="Fvq-60-gIg" firstAttribute="trailing" secondItem="Omq-8S-ady" secondAttribute="trailing" type="default" id="fq4-kY-UfK"/>
-                            <constraint firstAttribute="bottom" secondItem="8Bg-Vj-y5y" secondAttribute="bottom" constant="40" id="sI5-fA-iFQ"/>
-                            <constraint firstItem="8Bg-Vj-y5y" firstAttribute="centerX" secondItem="Fvq-60-gIg" secondAttribute="centerX" type="default" id="zya-lJ-Fpc"/>
-                        </constraints>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    </view>
-                    <nil key="simulatedStatusBarMetrics"/>
-                    <nil key="simulatedTopBarMetrics"/>
-                    <nil key="simulatedBottomBarMetrics"/>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="A1a-Zm-Dan" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-484" y="98"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Me8-b8-ZHj">
-            <objects>
-                <viewController id="5oS-vN-Oin" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Uhg-5H-Ro1">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovb-lB-Z23">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="25" id="7aJ-u8-f9v"/>
-                                    <constraint firstAttribute="width" constant="80" id="d0l-qh-hA9"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" backgroundImage="ButtonVoltarOff~ipad.png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted" backgroundImage="ButtonVoltarOn~ipad.png">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="3A1-7Z-icF" kind="modal" modalTransitionStyle="flipHorizontal" id="Qek-lK-tL5"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="ovb-lB-Z23" firstAttribute="top" secondItem="Uhg-5H-Ro1" secondAttribute="top" constant="23" id="WBS-Fw-f5V"/>
-                            <constraint firstItem="ovb-lB-Z23" firstAttribute="leading" secondItem="Uhg-5H-Ro1" secondAttribute="leading" constant="18" id="Ynk-6v-5Mu"/>
-                        </constraints>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    </view>
-                    <nil key="simulatedStatusBarMetrics"/>
-                    <nil key="simulatedTopBarMetrics"/>
-                    <nil key="simulatedBottomBarMetrics"/>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jel-9t-b9r" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="197" y="543"/>
-        </scene>
     </scenes>
     <resources>
-        <image name="BgGame.png" width="480" height="320"/>
-        <image name="ButtonBlueOff.png" width="128" height="96"/>
-        <image name="ButtonBlueOn.png" width="128" height="96"/>
-        <image name="ButtonGreenOff.png" width="128" height="96"/>
-        <image name="ButtonGreenOn.png" width="128" height="96"/>
-        <image name="ButtonPlayOff~ipad.png" width="180" height="80"/>
-        <image name="ButtonPlayOn~ipad.png" width="180" height="80"/>
-        <image name="ButtonRedOff.png" width="128" height="96"/>
-        <image name="ButtonRedOn.png" width="128" height="96"/>
-        <image name="ButtonVoltarOff~ipad.png" width="260" height="80"/>
-        <image name="ButtonVoltarOn~ipad.png" width="260" height="80"/>
-        <image name="ButtonYellowOff.png" width="128" height="96"/>
-        <image name="ButtonYellowOn.png" width="128" height="96"/>
-        <image name="CharacterGray01.png" width="91" height="84"/>
-        <image name="MainMenuBg.png" width="480" height="320"/>
+        <image name="ButtonGreenOff~ipad.png" width="512" height="384"/>
+        <image name="ButtonGreenOn~ipad.png" width="512" height="384"/>
+        <image name="ButtonRedOff~ipad.png" width="512" height="384"/>
+        <image name="ButtonRedOn~ipad.png" width="512" height="384"/>
     </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
@@ -288,18 +76,14 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
                 <relationship kind="action" name="play:"/>
-                <relationship kind="action" name="playVideo"/>
                 <relationship kind="action" name="start:"/>
-                <relationship kind="outlet" name="btnCenter" candidateClass="myButton"/>
+                <relationship kind="outlet" name="btnCenter" candidateClass="UIButton"/>
             </relationships>
-        </class>
-        <class className="myButton" superclassName="UIButton">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/myButton.h"/>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>

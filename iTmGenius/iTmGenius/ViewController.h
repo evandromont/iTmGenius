@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 #import "myButton.h"
-#import <MediaPlayer/MediaPlayer.h>
 
 @interface ViewController : UIViewController {
     AVAudioPlayer* audioPlayer;
@@ -30,7 +29,6 @@
 
 - (IBAction)start:(id)sender;
 - (IBAction)play:(id)sender;
-- (IBAction)playVideo;
 
 - (void) computerTurn;
 - (void) playListComputer;
