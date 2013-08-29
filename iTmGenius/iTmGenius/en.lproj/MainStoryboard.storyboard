@@ -1,9 +1,143 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="SO2-wP-OcD">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="MQw-Sb-fIH">
+            <objects>
+                <viewController id="Oxc-ra-uAu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rtr-R9-D9l">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLO-39-lFL">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="HzJ-hC-Qso"/>
+                                    <constraint firstAttribute="height" constant="50" id="wpc-8z-K7a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="ButtonVoltarOff~ipad.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="ButtonVoltarOn~ipad.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SO2-wP-OcD" kind="modal" modalTransitionStyle="flipHorizontal" id="SHf-pa-kzT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cLO-39-lFL" firstAttribute="leading" secondItem="rtr-R9-D9l" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="GVe-Oa-Mea"/>
+                            <constraint firstItem="cLO-39-lFL" firstAttribute="top" secondItem="rtr-R9-D9l" secondAttribute="top" constant="20" symbolic="YES" type="default" id="d3X-9k-PKq"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zWp-uw-UIT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="153" y="974"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WTj-Oe-X12">
+            <objects>
+                <viewController id="SO2-wP-OcD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fS9-iB-mUQ">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="MainMenuBg.png" translatesAutoresizingMaskIntoConstraints="NO" id="avs-ns-2No"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Df5-G2-sWv">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Taw-8f-zmS"/>
+                                    <constraint firstAttribute="width" constant="180" id="zcB-4k-3l8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="ButtonPlayOff~ipad.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="ButtonPlayOn~ipad.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2" kind="modal" modalTransitionStyle="flipHorizontal" id="FIq-nU-kXH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BW4-5Z-vRX">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Oxc-ra-uAu" kind="modal" modalTransitionStyle="flipHorizontal" id="Rdn-1i-llP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="BW4-5Z-vRX" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Ako-4G-Kcg"/>
+                            <constraint firstItem="avs-ns-2No" firstAttribute="trailing" secondItem="fS9-iB-mUQ" secondAttribute="trailing" type="default" id="EE2-3r-M9W"/>
+                            <constraint firstItem="avs-ns-2No" firstAttribute="top" secondItem="fS9-iB-mUQ" secondAttribute="top" type="default" id="FBB-bG-Qfe"/>
+                            <constraint firstItem="avs-ns-2No" firstAttribute="bottom" secondItem="fS9-iB-mUQ" secondAttribute="bottom" type="default" id="Ksg-Ah-VSY"/>
+                            <constraint firstItem="avs-ns-2No" firstAttribute="leading" secondItem="fS9-iB-mUQ" secondAttribute="leading" type="default" id="Ygi-yL-tYK"/>
+                            <constraint firstAttribute="bottom" secondItem="Df5-G2-sWv" secondAttribute="bottom" constant="145" id="oSC-lv-6er"/>
+                            <constraint firstItem="Df5-G2-sWv" firstAttribute="centerX" secondItem="avs-ns-2No" secondAttribute="centerX" type="default" id="qot-Lp-Qwc"/>
+                            <constraint firstAttribute="bottom" secondItem="BW4-5Z-vRX" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="rlj-kJ-7Ps"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lGZ-Sh-cA4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1001" y="74"/>
+        </scene>
+        <!--View Controller - Video-->
+        <scene sceneID="kLZ-ln-gjQ">
+            <objects>
+                <viewController title="Video" id="Rbq-xo-ARo" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0oM-dx-tlh">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Colocar o video aqui.... Sem botoes de play stop sem nada quando terminar vai pra proxima tela. É impossivel!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HeS-Qj-fGa">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HeS-Qj-fGa" firstAttribute="top" secondItem="0oM-dx-tlh" secondAttribute="top" constant="373" id="bjb-Ho-odr"/>
+                            <constraint firstItem="HeS-Qj-fGa" firstAttribute="centerX" secondItem="0oM-dx-tlh" secondAttribute="centerX" type="default" id="jyB-GL-NvH"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hJ6-p2-aAW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2182" y="74"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="4">
             <objects>
@@ -12,6 +146,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="BgGame.png" translatesAutoresizingMaskIntoConstraints="NO" id="XW7-Hu-pXo"/>
                             <button opaque="NO" tag="3" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uIt-wB-3gE" customClass="myButton">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="512" id="9eF-wl-tTo"/>
@@ -43,6 +178,7 @@
                                 </state>
                                 <connections>
                                     <action selector="play:" destination="2" eventType="touchUpInside" id="rIW-so-4jy"/>
+                                    <outlet property="btnCenter" destination="ien-9U-Wlr" id="WFV-SR-HO0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleAspectFit" contentHorizontalAlignment="right" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kKV-Jz-nGo" customClass="myButton">
@@ -80,7 +216,7 @@
                                     <constraint firstAttribute="height" constant="334" id="pgb-Ai-5oq"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="CharacterGray01.png">
+                                <state key="normal" backgroundImage="CharacterGray01.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -95,14 +231,18 @@
                         <color key="backgroundColor" red="0.2681767155" green="0.27896855380000002" blue="0.31134406889999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="kKV-Jz-nGo" firstAttribute="leading" secondItem="uoF-qv-Beq" secondAttribute="leading" type="default" id="0IR-IS-a52"/>
-                            <constraint firstItem="ien-9U-Wlr" firstAttribute="centerY" secondItem="5" secondAttribute="centerY" type="default" id="2Qz-wh-73m"/>
+                            <constraint firstItem="ien-9U-Wlr" firstAttribute="centerY" secondItem="XW7-Hu-pXo" secondAttribute="centerY" type="default" id="3Zh-I3-zJT"/>
                             <constraint firstItem="uIt-wB-3gE" firstAttribute="top" secondItem="5" secondAttribute="top" type="default" id="3d7-VO-ewY"/>
+                            <constraint firstItem="XW7-Hu-pXo" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" type="default" id="4kW-7e-vAT"/>
                             <constraint firstItem="cVq-JO-Krw" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="57N-2G-LBP"/>
+                            <constraint firstItem="XW7-Hu-pXo" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="default" id="7Uv-Vp-dGk"/>
                             <constraint firstItem="uIt-wB-3gE" firstAttribute="trailing" secondItem="cVq-JO-Krw" secondAttribute="trailing" type="default" id="8Yc-1P-2pj"/>
+                            <constraint firstItem="XW7-Hu-pXo" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="HOg-7X-3WK"/>
                             <constraint firstItem="uIt-wB-3gE" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="default" id="RlS-Ys-LRo"/>
                             <constraint firstItem="ien-9U-Wlr" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="331" id="TX8-Eg-sLY"/>
                             <constraint firstItem="uoF-qv-Beq" firstAttribute="top" secondItem="5" secondAttribute="top" type="default" id="Vjt-MG-gGK"/>
                             <constraint firstItem="cVq-JO-Krw" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="default" id="ZUI-cH-io3"/>
+                            <constraint firstItem="XW7-Hu-pXo" firstAttribute="top" secondItem="5" secondAttribute="top" type="default" id="aLK-E7-IWg"/>
                             <constraint firstItem="uoF-qv-Beq" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" type="default" id="fnE-g4-9rm"/>
                             <constraint firstItem="kKV-Jz-nGo" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="hpk-S6-QyH"/>
                             <constraint firstItem="kKV-Jz-nGo" firstAttribute="top" secondItem="cVq-JO-Krw" secondAttribute="top" type="default" id="qG3-Hq-Vaq"/>
@@ -122,35 +262,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="307" y="58"/>
         </scene>
     </scenes>
     <resources>
+        <image name="BgGame.png" width="480" height="320"/>
         <image name="ButtonBlueOff.png" width="128" height="96"/>
         <image name="ButtonBlueOn.png" width="128" height="96"/>
         <image name="ButtonGreenOff.png" width="128" height="96"/>
         <image name="ButtonGreenOn.png" width="128" height="96"/>
+        <image name="ButtonPlayOff~ipad.png" width="180" height="80"/>
+        <image name="ButtonPlayOn~ipad.png" width="180" height="80"/>
         <image name="ButtonRedOff.png" width="128" height="96"/>
         <image name="ButtonRedOn.png" width="128" height="96"/>
+        <image name="ButtonVoltarOff~ipad.png" width="260" height="80"/>
+        <image name="ButtonVoltarOn~ipad.png" width="260" height="80"/>
         <image name="ButtonYellowOff.png" width="128" height="96"/>
         <image name="ButtonYellowOn.png" width="128" height="96"/>
         <image name="CharacterGray01.png" width="91" height="84"/>
+        <image name="MainMenuBg.png" width="480" height="320"/>
     </resources>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="play:"/>
-                <relationship kind="action" name="start:"/>
-                <relationship kind="outlet" name="btnCenter" candidateClass="myButton"/>
-            </relationships>
-        </class>
-        <class className="myButton" superclassName="UIButton">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/myButton.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
