@@ -158,7 +158,7 @@
     int count = 1;
 
     for (NSNumber * myIndex in listComputer){
-        [self blinkButtonAtIndex:myIndex];
+
         [self performSelector:@selector(blinkButtonAtIndex:) withObject:myIndex afterDelay:0.5 * count]; //blink
         //[self performSelector:@selector(blinkButtonAtIndex:) withObject:myIndex afterDelay:0.8 * count]; //unblink
         NSLog(@"playListComputer %d", myIndex.intValue);
