@@ -115,7 +115,22 @@
                     <view key="view" contentMode="scaleToFill" id="0oM-dx-tlh">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Colocar o video aqui.... Sem botoes de play stop sem nada quando terminar vai pra proxima tela. É impossivel!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xxv-2U-2hf">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="9Xz-Zf-Mgv"/>
+                                    <constraint firstAttribute="width" constant="837" id="jbz-Ym-tCG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Xxv-2U-2hf" firstAttribute="top" secondItem="0oM-dx-tlh" secondAttribute="top" constant="373" id="XdB-Qh-1Qb"/>
+                            <constraint firstItem="Xxv-2U-2hf" firstAttribute="leading" secondItem="0oM-dx-tlh" secondAttribute="leading" constant="263" id="d52-QZ-UIy"/>
+                        </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
