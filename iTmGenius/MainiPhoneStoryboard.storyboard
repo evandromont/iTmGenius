@@ -227,6 +227,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Infos.png" translatesAutoresizingMaskIntoConstraints="NO" id="X5K-qI-E08">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="325" id="cqD-3S-lUG"/>
+                                </constraints>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovb-lB-Z23">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="7aJ-u8-f9v"/>
@@ -249,6 +254,9 @@
                         <constraints>
                             <constraint firstItem="ovb-lB-Z23" firstAttribute="top" secondItem="Uhg-5H-Ro1" secondAttribute="top" constant="23" id="WBS-Fw-f5V"/>
                             <constraint firstItem="ovb-lB-Z23" firstAttribute="leading" secondItem="Uhg-5H-Ro1" secondAttribute="leading" constant="18" id="Ynk-6v-5Mu"/>
+                            <constraint firstItem="X5K-qI-E08" firstAttribute="leading" secondItem="Uhg-5H-Ro1" secondAttribute="leading" type="default" id="jig-or-94M"/>
+                            <constraint firstItem="X5K-qI-E08" firstAttribute="top" secondItem="Uhg-5H-Ro1" secondAttribute="top" type="default" id="oFu-Ii-K6Y"/>
+                            <constraint firstItem="X5K-qI-E08" firstAttribute="trailing" secondItem="Uhg-5H-Ro1" secondAttribute="trailing" type="default" id="qdU-qE-Xe1"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
@@ -278,8 +286,26 @@
         <image name="ButtonYellowOff.png" width="128" height="96"/>
         <image name="ButtonYellowOn.png" width="128" height="96"/>
         <image name="CharacterGray01.png" width="91" height="84"/>
+        <image name="Infos.png" width="480" height="320"/>
         <image name="MainMenuBg.png" width="480" height="320"/>
     </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="play:"/>
+                <relationship kind="action" name="playVideo"/>
+                <relationship kind="action" name="start:"/>
+                <relationship kind="outlet" name="btnCenter" candidateClass="myButton"/>
+            </relationships>
+        </class>
+        <class className="myButton" superclassName="UIButton">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/myButton.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

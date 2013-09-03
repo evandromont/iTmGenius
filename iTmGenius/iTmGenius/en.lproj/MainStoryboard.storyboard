@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="Rbq-xo-ARo">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="SO2-wP-OcD">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -12,6 +12,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Infos.png" translatesAutoresizingMaskIntoConstraints="NO" id="JFE-RP-wlq"/>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLO-39-lFL">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="160" id="HzJ-hC-Qso"/>
@@ -32,8 +33,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="JFE-RP-wlq" firstAttribute="bottom" secondItem="rtr-R9-D9l" secondAttribute="bottom" type="default" id="7N6-hp-XiT"/>
+                            <constraint firstItem="JFE-RP-wlq" firstAttribute="top" secondItem="rtr-R9-D9l" secondAttribute="top" type="default" id="B4u-2b-FmH"/>
                             <constraint firstItem="cLO-39-lFL" firstAttribute="leading" secondItem="rtr-R9-D9l" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="GVe-Oa-Mea"/>
                             <constraint firstItem="cLO-39-lFL" firstAttribute="top" secondItem="rtr-R9-D9l" secondAttribute="top" constant="20" symbolic="YES" type="default" id="d3X-9k-PKq"/>
+                            <constraint firstItem="JFE-RP-wlq" firstAttribute="trailing" secondItem="rtr-R9-D9l" secondAttribute="trailing" type="default" id="e8d-Ag-U6g"/>
+                            <constraint firstItem="JFE-RP-wlq" firstAttribute="leading" secondItem="rtr-R9-D9l" secondAttribute="leading" type="default" id="pVo-2x-kyC"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
@@ -284,6 +289,7 @@
         <image name="ButtonYellowOff.png" width="128" height="96"/>
         <image name="ButtonYellowOn.png" width="128" height="96"/>
         <image name="CharacterGray01.png" width="91" height="84"/>
+        <image name="Infos.png" width="480" height="320"/>
         <image name="MainMenuBg.png" width="480" height="320"/>
     </resources>
     <classes>
