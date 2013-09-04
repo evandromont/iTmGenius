@@ -88,6 +88,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="start:" destination="wHK-7Y-0wC" eventType="touchUpInside" id="GKA-cC-C2g"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -289,23 +292,6 @@
         <image name="Infos.png" width="480" height="320"/>
         <image name="MainMenuBg.png" width="480" height="320"/>
     </resources>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="play:"/>
-                <relationship kind="action" name="playVideo"/>
-                <relationship kind="action" name="start:"/>
-                <relationship kind="outlet" name="btnCenter" candidateClass="myButton"/>
-            </relationships>
-        </class>
-        <class className="myButton" superclassName="UIButton">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/myButton.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
